@@ -1,10 +1,10 @@
-package com.sk.file;
+package com.sk.var;
 
 /**
  * TODO
  *
  * @author zhangqiao
- * @since 2020/4/21 15:48
+ * @since 2020/4/21 15:52
  */
 public class Test {
 

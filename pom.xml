@@ -5,6 +5,7 @@
     <packaging>pom</packaging>
     <modules>
         <module>sk-io</module>
+        <module>sk-jdk11</module>
     </modules>
     <parent>
         <groupId>org.springframework.boot</groupId>
