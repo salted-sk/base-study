@@ -14,6 +14,5 @@ public class Test {
     public static void main(String[] args) {
         Stream.of("a","b","c","","e","f").dropWhile(s-> !s.isEmpty())
                 .forEach(System.out::print);
-
     }
 }
