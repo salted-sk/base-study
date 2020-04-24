@@ -12,7 +12,9 @@ import java.util.stream.Stream;
 public class Test {
 
     public static void main(String[] args) {
-        Stream.of("a","b","c","","e","f").dropWhile(s-> !s.isEmpty())
-                .forEach(System.out::print);
+//        Stream.of("a","b","c","","e","f").takeWhile(s-> !s.isEmpty())
+//                .forEach(System.out::println);
+        Stream.of("a","b","c","","e","f").dropWhile(s-> s.isEmpty())
+                .forEach(System.out::println);
     }
 }
